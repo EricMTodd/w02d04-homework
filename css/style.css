@@ -4,3 +4,9 @@ body {
 .dog {
 	font-family: fantasy;
 }
+.secret {
+	opactiy: 0.5;
+}
+li {
+	list-style-type: none;
+}

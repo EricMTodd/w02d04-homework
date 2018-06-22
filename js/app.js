@@ -4,25 +4,19 @@ console.log("JavaScript is running...");
 	let $container = $("div").attr("id", "container");
 console.log($container);
 
-$($container).append("<h1/>");
-$("h1").text("Syllable skill-a-holic");
+$($container).append("<h1>I walk with warlocks through labrynth-like corn stalks</h1>");
 
-$($container).append("<h2/>");
-$("h2").text("Eric Todd");
+$($container).append("<h2>Eric Todd</h2>");
 
-$($container).append("<h3/>");
-$("h3").text("Slytherin");
+$($container).append("<h3>Slytherin</h3>");
 
-$($container).append("<h4/>");
-$("h4").addClass("dog");
-$(".dog").text("Zephyr")
+$($container).append("<h4 class='dog'>Zephyr</h4>");
 
-// $($container).append("<h4/>");
-// $("h4").text("Holly Wood with Unicorn Hair Core");
-// ("Holly Wood with Unicorn Hair Core")
+$($container).append("<h4>Holly Wood with Unicorn Hair Core</h4>");
 
-// THIS SHIT DOESN'T WORK
-
+$($container).append("<ul/>");
+$("ul").attr("storage", "trunk");
+$("ul").append("<li>Butter Beer</li><li class='secret'>Invisibility Cloak</li><li class='secret'>Marauder's Map</li><li class='secret'>Time Turner</li><li class='dog'>Leash</li><li>Bertie Bott's Every Flavor Beans</li>");
 
 
 
