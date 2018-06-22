@@ -22,6 +22,9 @@ $("ul").attr("storage", "trunk");
 $("ul").append("<li class='beer'>Butter Beer</li><li class='secret'>Invisibility Cloak</li><li class='secret'>Marauder's Map</li><li class='secret'>Time Turner</li><li class='dog'>Leash</li><li>Bertie Bott's Every Flavor Beans</li>");
 $("li").remove(".beer")
 
+$(".secret").delay(2000).hide("slow");
+$(".secret").delay(2000).show("slow");
+
 $($container).append("<h5>Spring 2019</h5>")
 $($container).append("<table><thead><th>Day</th><th>Classes</th><tr><td>Monday</td><td>History of Magic, Defense Against the Dark Arts</td></tr><tr><td>Tuesday</td><td>Herbology, Potions</td></tr><tr><td>Wednesday</td><td>Transfiguration, Transmutation</td></tr><tr><td>Thursday</td><td>Divination, Charms</td></tr><tr><td>Friday</td><td>Dueling Club, Quidditch practice</td></tr></thead></table>");
 
